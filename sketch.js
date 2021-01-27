@@ -18,6 +18,7 @@ function setup(){
     
     ground = new Ground(600,height,1200,20)
     platform = new Ground(150,305,300, 170);
+    platform2 = new Ground(150,195,300,10);
 
     box1 = new Box(700,320,70,70);
     box2 = new Box(920,320,70,70);
@@ -49,6 +50,11 @@ function draw(){
 
     ground.display();
     platform.display();
+    fill ("black");
+    platform2.display();
+
+// added a new line 
+
     pig1.display();
     log1.display();
 
